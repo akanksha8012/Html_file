@@ -36,8 +36,13 @@
     margin-right: 20px;
     font-size: 16px;
 }
+
 .navigation a{
     color: black;
+    transition: all .3s ease;
+}
+.navigation a:hover{
+    color: red;
 }
 .image1{
     width: 460px;
@@ -104,6 +109,7 @@
     border: 1px solid rgb(66, 66, 66);
     border-radius: 10px;
     padding: 10px 7px;
+    transition: all .7s ease;
 }
 .card:hover{
     box-shadow: 5px 5px 8px #716c6c;
@@ -138,6 +144,7 @@
     border: 1px solid rgb(66, 66, 66);
     border-radius: 10px;
     padding: 10px 7px;
+    transition: all .7s ease;
 }
 .card-1:hover{
     box-shadow: 5px 5px 8px #716c6c;
@@ -204,6 +211,7 @@
     font-size: 17px;
     font-weight: 600;
     padding: 10px;
+    transition: all .7s ease;
 }
 .card-2:hover{
     box-shadow: 5px 7px 8px #716c6c;
