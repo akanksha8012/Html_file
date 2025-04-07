@@ -12,7 +12,7 @@
 .header{
     height: 80px;
     width: 100%;
-    /* background: linear-gradient(135deg, rgba(255, 255, 255, 0.594),rgba(255, 255, 255, 0)); */
+    padding: 5px 25px;
     background-color: rgba(240, 248, 255, 0.185);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(10px);
@@ -246,4 +246,22 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.fa-bars{
+    display: none;
+
+}
+@media (max-width:576px) {
+    .navigation{
+        display: none;
+    }
+.fa-bars{
+    display: block;
+}
+.parent{
+    flex-direction: column;
+}
+.head{
+    line-height: 56px;
+}
 }
